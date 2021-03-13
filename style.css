@@ -8,7 +8,8 @@ body {
 }
 nav {
     overflow: hidden;
-    background-color: #d5d6d6;
+    background-image: url(images/gray_jean.png);
+    border-bottom: 1px solid #c5c5c5;
 }
 nav a {
     float: right;
@@ -35,9 +36,9 @@ header {
 }
 .intro {
     padding: 10px;
-    background-image: linear-gradient(#ececec, #d3d3d3);
-    border-top: 1px solid rgb(136, 136, 136);
-    border-bottom: 1px solid rgb(136, 136, 136);
+    background-image: url(images/gray_jean.png);
+    border-top: 1px solid #c5c5c5;
+    border-bottom: 1px solid #c5c5c5;
     overflow: hidden;
     text-align: center;
     font-size: 16px;
@@ -53,7 +54,7 @@ th, td {
     padding: 5px;
     text-align: center;
     line-height: 300%;
-    border: 1px solid rgb(136, 136, 136);
+    border: 1px solid #888888;
     font-size: 16px;   
 }
 th {
@@ -67,6 +68,15 @@ td a {
     text-decoration: none;
     color: black;
     font-weight: 600;
+}
+footer {
+    padding: 10px;
+    background-image: url(images/gray_jean.png);
+    border-top: 1px solid #c5c5c5;
+    border-bottom: 1px solid #c5c5c5;
+    overflow: hidden;
+    text-align: center;
+    font-size: 16px;
 }
 
 
