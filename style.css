@@ -20,6 +20,10 @@ nav a {
     text-decoration: none;
     font-size: 16px;
 }
+nav a:hover {
+    color: #616161;
+    transition: 0.5s;
+}
 .nav-title {
     float: left;
 }
@@ -69,6 +73,10 @@ td a {
     color: black;
     font-weight: 600;
 }
+td a:hover {
+    color: #6f7464;
+    transition: 0.5s;
+}
 footer {
     padding: 10px;
     background-image: url(images/gray_jean.png);
@@ -76,7 +84,17 @@ footer {
     border-bottom: 1px solid #c5c5c5;
     overflow: hidden;
     text-align: center;
-    font-size: 16px;
+    font-size: 13px;
+}
+footer a {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    color:grey;
+}
+footer a:hover {
+    color: black;
+    transition: 0.5s;
 }
 
 
